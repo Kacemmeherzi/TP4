@@ -1,0 +1,7 @@
+<div *ngIf="tasks.length > 0" class="container mx-auto py-4">
+    <div *ngFor="let task of tasks" class="w-1/4 bg-gray-100 p-4 mb-4 rounded-lg">
+    <ul>
+    <li class="text-gray-800">{{ task }}</li>
+    </ul>
+    </div>
+    </div>
